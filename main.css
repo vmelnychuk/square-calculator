@@ -11,6 +11,10 @@ body {
   text-align: center;
 }
 
+#home {
+  border: 1px;
+}
+
 /****palette-begin************
 
 dark: #151515
