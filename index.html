@@ -8,15 +8,66 @@
   </head>
   <body>
     <h1 id="app-name">Расчет площади пола</h1>
-    <h2>Выбор помещения</h2>
-    <p>rechteck</p>
-    <p>eckeRechts</p>
-    <p>ausschnittMitte</p>
-    <p>mitErker</p>
-    <h2>Ваши размеры</h2>
-    <p>Ширина:</p>
-    <p>Высота:</p>
+    <div id="chat">
+      <div class="chat-message">
+        <pre class="code-section">
+          <code>
+[ ] Г
+1   2
+          </code>
+        </pre>
+        <p class="question" class="message current show">Выберите форму комнаты
+          <input type="text" name="room-shape" maxlength="1" size="2" value="0">
+          <input type="button" value="ok"></p>
+      </div>
 
-<!-- https://d3js.org/ for drawing room -->
+      <div class="chat-message">
+        <p class="question" class="message hide">Задайте ширину
+          <input type="text" name="room-width" maxlength="3" size="4" value="0">
+          <input type="button" value="ok"></p>
+      </div>
+
+      <div class="chat-message">
+        <p class="question" class="message hide">Задайте высоту
+          <input type="text" name="room-height" maxlength="3" size="4" value="0">
+          <input type="button" value="ok"></p>
+      </div>
+
+      <div class="chat-message">
+        <p class="question" class="message hide">Задайте высоту
+          <input type="text" name="room-height" maxlength="3" size="4" value="0">
+          <input type="button" value="ok"></p>
+      </div>
+
+      <div class="chat-message">
+        <p class="question" class="message hide">Процент отходов
+          <input type="text" name="room-height" maxlength="2" size="3" value="0">%
+          <input type="button" value="ok"></p>
+      </div>
+      <input type="button" class="submit" value="Calculate">
+      <div class="chat-message">
+        <p class="question" class="message hide">Необходимого количество напольного покрытия
+          <input type="text" name="room-height" maxlength="2" size="3" value="0">m<sup>2</sup>
+      </div>
+    </div>
   </body>
+  <script src="main.js"></script>
 </html>
+
+
+<!--
+
+<h2>Выбор помещения</h2>
+
+<p>rechteck</p>
+<p>eckeRechts</p>
+<p>ausschnittMitte</p>
+<p>mitErker</p>
+<h2>Ваши размеры</h2>
+<p>Ширина:</p>
+<p>Высота:</p>
+
+ -->
+
+
+ <!-- https://d3js.org/ for drawing room -->

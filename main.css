@@ -1,6 +1,6 @@
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
+h1, h2, h3, h4, h5, h6, p, blockquote,
+a, abbr, acronym, address, big, cite,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
@@ -52,6 +52,14 @@ body {
   background-color: #F1F2F6;
   font: 300 14px/1.5 Roboto, Helvetica, Arial, sans-serif;
   color: #151515;
+  width: 800px;
+  margin: auto;
+}
+
+pre, code {
+  margin: 0;
+  font-family: monospace;
+  white-space: pre;
 }
 
 #app-name {
@@ -61,6 +69,10 @@ body {
 
 #home {
   border: 1px;
+}
+
+#chat {
+  background-color: #EDECF2;
 }
 
 /* Do the same for forms https://www.prior.by/web/  inputs for password and login */
